@@ -1,6 +1,6 @@
 package model;
-
-public class AccountDetails{
+public class AccountDetails
+{
 	private String accountType;
     private double withdrawOrDepositAmount;
 	private double availableBalance;
@@ -33,6 +33,6 @@ public AccountDetails(String accountType, double withdrawOrDepositAmount, double
         this.accountType = accountType;
         this.withdrawOrDepositAmount = withdrawOrDepositAmount;
         this.availableBalance = availableBalance;
-        this.pin = pin;
-    }
+        this.pin = pin;
+    }
 }
