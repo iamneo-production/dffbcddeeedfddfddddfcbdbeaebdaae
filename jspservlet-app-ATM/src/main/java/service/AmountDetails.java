@@ -9,7 +9,7 @@ public class AmountDetails implements InterfaceClass {
         return 0;
         }
         public double accountBalance(double a1,double a2){
-        return 0;
-        }
+        return 0;
+    }
         
 }
