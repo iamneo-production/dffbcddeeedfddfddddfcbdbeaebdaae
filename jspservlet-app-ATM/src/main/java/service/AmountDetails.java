@@ -2,14 +2,20 @@ package service;
 
 public class AmountDetails implements InterfaceClass {
 
-    public double withdrawAmount(double w1,double w2){
-        return 0; 
-        }
-        public double depositAmount(double d1,double d2){
-        return 0;
-        }
-        public double accountBalance(double a1,double a2){
-        return 0;
+    public double withdrawAmount(double arg1, double arg2) {
+        // TODO Auto-generated method stub
+        arg2 = arg2 - arg1;
+        return arg2;
     }
-        
+
+    public double depositAmount(double arg1, double arg2) {
+        // TODO Auto-generated method stub
+        arg2 = arg2 + arg1;
+        return arg2;
+    }
+
+    public double accountBalance(double arg1) {
+        // TODO Auto-generated method stub
+        return arg1;
+    }
 }
